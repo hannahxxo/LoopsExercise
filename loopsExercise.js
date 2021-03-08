@@ -16,8 +16,8 @@ const wizards = [
 ]
 
 // 3b
-for (characters of wizards){
-    console.log(characters);
+for (names of wizards){
+    console.log(names);
 }
 
 // 4a
@@ -29,6 +29,15 @@ while (harryPotterMovies <= 8){
     harryPotterMovies++;
 }
 
+// OR
+// while (true){
+//     harryPotterMovies++;
+//     console.log();
+//     if (harryPotterMovies ====8){
+//         break;
+//     }
+// }
+
 // 5a
 const hogwartsHouses = [
     "Gryffindor",
@@ -38,7 +47,11 @@ const hogwartsHouses = [
 ]
 
 // 5b
-
+for (houses of hogwartsHouses){
+    for (chr of houses){
+        console.log(chr);
+}
+}
 
 // 6a
 const quote = [
@@ -50,3 +63,9 @@ const quote = [
 
 
 // 6b
+let fullQuote = "";
+for (word of quote){
+    fullQuote += `${word}`
+}
+fullQuote = fullQuote.trim();
+console.log(fullQuote);
