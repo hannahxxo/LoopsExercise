@@ -16,7 +16,9 @@ const wizards = [
 ]
 
 // 3b
-
+for (characters of wizards){
+    console.log(characters);
+}
 
 // 4a
 let harryPotterMovies = 0
@@ -26,3 +28,25 @@ while (harryPotterMovies <= 8){
     console.log(harryPotterMovies);
     harryPotterMovies++;
 }
+
+// 5a
+const hogwartsHouses = [
+    "Gryffindor",
+    "Hufflepuff",
+    "Ravenclaw",
+    "Slytherin"
+]
+
+// 5b
+
+
+// 6a
+const quote = [
+    "Yer",
+    "A",
+    "Wizard",
+    "Harry"
+]
+
+
+// 6b
